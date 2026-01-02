@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Zero Hunger World
 
-## Getting Started
+**"ALL FOR BETTER LIVES | معاً لمستقبل أفضل"**
 
-First, run the development server:
+Zero Hunger World is a modern, non-profit initiative platform dedicated to social reintegration and community empowerment. Operating under the Ghayt Charity Association, the project focuses on entrepreneurship-based solutions to help homeless individuals escape vulnerability.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🎓 AI-Driven Academy
+- **Dynamic Formations**: Specialized training modules like "Become Team Lead" (33 interactive slides).
+- **Gamified Learning**: Interactive MCQ quizzes with instant feedback and score tracking.
+- **Continuous Progression**: Sleek, animated progression bars for an immersive learning experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📊 Impact Dashboard
+- **Real-time Analytics**: Visualizing community impact and field actions.
+- **Interactive Storytelling**: Real-world testimonials and success stories.
+- **Role-Based Views**: Specialized dashboards for Volunteers, Team Leads, and Bureau members.
 
-## Learn More
+### 🤝 Community & Growth
+- **Team Evolution**: Showcasing organizational growth and transparency.
+- **Social Integration**: Direct links to the active [Instagram Community](https://www.instagram.com/zerohungerworld/).
+- **Responsive Design**: Polished, premium UI optimized for desktop and mobile.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Styling**: Vanilla CSS & Tailwind CSS
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💻 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+- Node.js 18.x or later
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AsmWeb9/zeroHungerWorld.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) to see the result.
+
+---
+
+## 🌐 Deployment
+
+The project is optimized for deployment on the **Vercel Platform**. 
+
+1. Push your changes to GitHub.
+2. Import the repository into [Vercel](https://vercel.com/new).
+3. Vercel will automatically handle the build and provide a production URL.
+
+---
+
+## 🛡️ License
+
+© 2025 Zero Hunger Intelligence. Open Source Humanity.
