@@ -31,7 +31,29 @@ Zero Hunger World is a modern, non-profit initiative platform dedicated to socia
 - **Styling**: Vanilla CSS & Tailwind CSS
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Icons**: [Lucide React](https://lucide.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- [Language](https://www.typescriptlang.org/): TypeScript
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── app/                  # Next.js App Router (Pages & Layouts)
+│   ├── dashboard/        # Role-based dashboards (Volunteer, Lead, Bureau)
+│   ├── login/            # Authentication pages
+│   └── layout.tsx        # Root layout & providers
+├── components/           # Reusable UI Components
+│   ├── landing/          # Hero, AboutUs, Impact, etc.
+│   └── dashboard/        # Dashboard-specific widgets
+├── context/              # React Context (Auth, Global State)
+├── services/             # API services & Mock data logic
+└── types/                # TypeScript interfaces & types
+public/
+├── academy/              # Slide images & formation content
+├── hero-carousel/        # Responsive background images
+└── logo.png              # Official branding assets
+```
 
 ---
 
