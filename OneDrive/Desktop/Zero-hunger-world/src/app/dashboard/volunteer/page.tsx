@@ -11,7 +11,9 @@ import {
     CheckCircle2,
     Target,
     Activity,
-    LineChart
+    LineChart,
+    Heart,
+    MapPin
 } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 

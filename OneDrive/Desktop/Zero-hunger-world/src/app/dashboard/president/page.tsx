@@ -17,7 +17,7 @@ export default function PresidentDashboard() {
         }
     }, [user]);
 
-    if (!user || user.role !== 'PRESIDENT') return <div className="text-red-500">Access Denied</div>;
+    if (!user || user.role !== 'BUREAU') return <div className="text-red-500">Access Denied</div>;
 
     return (
         <div>

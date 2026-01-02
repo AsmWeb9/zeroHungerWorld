@@ -14,7 +14,7 @@ export default function LeaderDashboard() {
         }
     }, [user]);
 
-    if (!user || user.role === 'MEMBER') return <div className="text-red-500">Access Denied</div>;
+    if (!user || user.role === 'VOLUNTEER') return <div className="text-red-500">Access Denied</div>;
 
     return (
         <div>

@@ -10,6 +10,11 @@ export default function LandingNavbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const { user, isAuthenticated, logout } = useAuth();
 
+    const getDashboardLink = () => {
+        if (!user) return '/login';
+        return '/dashboard/overview';
+    };
+
     useEffect(() => {
         const handleScroll = () => {
             setScrolled(window.scrollY > 50);
