@@ -25,13 +25,27 @@ Zero Hunger World is a modern, non-profit initiative platform dedicated to socia
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
-- **Styling**: Vanilla CSS & Tailwind CSS
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- [Language](https://www.typescriptlang.org/): TypeScript
+### Core
+- **[Next.js 15+](https://nextjs.org/)**: Utilizing the latest App Router for optimal performance and SEO.
+- **[TypeScript](https://www.typescriptlang.org/)**: Ensures type safety and scalable code architecture.
+- **[React 19](https://react.dev/)**: Powering the interactive UI with the latest features.
+
+### Styling & UI
+- **[Tailwind CSS](https://tailwindcss.com/)**: For rapid, modern utility-first styling.
+- **Vanilla CSS**: Custom design tokens and complex glassmorphism effects.
+- **[Framer Motion](https://www.framer.com/motion/)**: High-performance animations for a premium user experience.
+- **[Lucide React](https://lucide.dev/)**: A consistent, beautiful icon library.
+
+### Architecture
+- **React Context API**: Lightweight, efficient global state management (Auth, UI states).
+- **RTL Support**: Native handling for Arabic content in testimonials and analytics.
+- **Modular Components**: Highly reusable, atomic design approach.
+
+### Deployment & DevOps
+- **[Vercel](https://vercel.com/)**: The industry standard for Next.js hosting and edge performance.
+- **Git/GitHub**: Version control and automated deployment pipelines.
 
 ---
 
